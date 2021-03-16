@@ -8,7 +8,7 @@ O tabuleiro consiste de uma grade de 5x5 com palavras aleatórias.
 Cada partida possuí uma Chave, que revela a identidade das cartas na mesa. Essa chave corresponde à grade na mesa. 
   * 8 Quadrados Azuis correspondem a palavras que a Equipe Azul terá de adivinhar.
   * 8 Quadrados Vermelhos correspondem a palavras que a Equipe Vermelhos terá de adivinhar.
-  * + 1 Agente Duplo, para o time que começar primeiro.
+  * 1 Agente Duplo, entra para o time que começar primeiro.
   * 7 Quadrados sem cor correspondem a Civis Inocentes.
   * 1 Quadrado Preto corresponde ao Assassino que nunca deve ser contactado (Spoiler: Você perde)
   
