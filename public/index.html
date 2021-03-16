@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Socket</title>
+  <script src="socket.io/socket.io.js"></script>
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Codinome</h1>
+  
+  <h3>Online: </h3>
+  <ul id="online">
+    <li>A</li>
+    <li>B</li>
+  </ul> 
+
+  <table>
+    <tbody>
+      <tr>
+        <td class="card revealed teamblue" id="0">Panela</td>
+        <td class="card revealed assassin" id="1">Motor</td>
+        <td class="card revealed victim" id="2">Cachorro</td>
+        <td class="card revealed teamred" id="3">Doutor</td>
+        <td class="card revealed teamblue" id="4">Estrela</td>
+      </tr>
+      <tr>
+        <td class="card revealed teamred" id="5">Azul</td>
+        <td class="card revealed teamred" id="6">Estádio</td>
+        <td class="card revealed teamblue" id="7">Loja</td>
+        <td class="card revealed victim" id="8">Raio</td>
+        <td class="card revealed teamred" id="9">Verme</td>
+      </tr>
+      <tr>
+        <td class="card revealed victim" id="10">Queda</td>
+        <td class="card revealed teamblue" id="11">Presunto</td>
+        <td class="card revealed teamblue" id="12">Taco</td>
+        <td class="card revealed victim" id="13">Espaço</td>
+        <td class="card revealed teamred" id="14">Cacho</td>
+      </tr>
+      <tr>
+        <td class="card revealed victim" id="15">Pistola</td>
+        <td class="card revealed victim" id="16">Negativo</td>
+        <td class="card revealed teamred" id="17">Capital</td>
+        <td class="card revealed teamred" id="18">Cerca</td>
+        <td class="card revealed teamblue" id="19">Marfim</td>
+      </tr>
+      <tr>
+        <td class="card revealed victim" id="20">Acorde</td>
+        <td class="card revealed teamblue" id="21">Caça</td>
+        <td class="card revealed teamred" id="22">Dentes</td>
+        <td class="card revealed teamblue" id="23">Espião</td>
+        <td class="card revealed teamblue" id="24">Bonde</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <label for="nome">Nome</label>
+  <input id="nome" type="text">
+  <button onclick="entrar()">Entrar</button>
+  <br>
+
+  <label for="capt">Capitão?</label>
+  <input id="capt" type="checkbox" checked>
+  <br>
+
+  <label for="team">Time?</label>
+  <input type="radio" name="team" id="blue" value="blue" checked><label for="blue">Azul</label> <br>
+  <input type="radio" name="team" id="red" value="red"><label for="blue">Vermelho</label>
+  <br>
+  
+</body>
+</html>

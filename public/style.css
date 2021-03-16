@@ -1,0 +1,36 @@
+.card{
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+  border: 2px solid #333;
+  background-color: lightgrey;
+  color: white;
+  font-weight: 900;
+  text-shadow: 1px 1px 6px black;
+}
+
+td.teamblue{
+  background-color: darkblue;
+}
+
+td.teamred{
+  background-color: darkred;
+}
+
+td.assassin{
+  background-color: darkorange;
+}
+
+td.victim{
+  background-color: lightgrey;
+}
+
+td.hidden{
+  background-color: lightgrey !important;
+}
+
+/* ul#online li {
+  display:inline;
+} */
